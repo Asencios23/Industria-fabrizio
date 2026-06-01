@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+  text-align: center;
+}
+
+.container2 {
+    width: 50%;
+}
+
+p {
+    margin: 2px;
+    margin-left: 5rem;
+    font-size: 3vh;
+
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.app-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: var(--background);
+    color: var(--primary);
+    width: 100%;
+    min-height: 10vh;
+}
+
+i {
+  color: #ff0000; /* Color rojo para los íconos */
+  font-size: 2vh; /* Tamaño de los íconos */
+}
+
+a:hover {
+    color: var(--button);
+}

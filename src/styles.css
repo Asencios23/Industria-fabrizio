@@ -7,3 +7,7 @@
     --button: #f82238;
     --button-hover: #c446f6;
 }
+
+body{
+    overflow-x:hidden;
+}

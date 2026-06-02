@@ -25,6 +25,6 @@ describe('Footer', () => {
     const fixture = TestBed.createComponent(Footer);
     await fixture.whenStable();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('p')?.textContent).toContain(new Date().getFullYear().toString());
+    expect(compiled.querySelector('.container2 p')?.textContent).toContain(new Date().getFullYear().toString());
   });
 });

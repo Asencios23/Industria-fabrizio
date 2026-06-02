@@ -88,3 +88,28 @@ a:hover{
 
 }
 
+@media (max-width: 768px){
+
+    .principal{
+        flex-direction: column;
+    }
+
+    .menu-container{
+        width: 100%;
+    }
+
+    .secundario{
+        width: 100%;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    img{
+        width: 120px;
+        height: auto;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+}

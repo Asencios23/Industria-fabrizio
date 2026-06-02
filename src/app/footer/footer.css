@@ -44,3 +44,26 @@ i {
 a:hover {
     color: var(--button);
 }
+
+@media (max-width: 768px) {
+    .app-footer {
+        flex-direction: column;
+
+    }
+
+    .container {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+      .container2 {
+        width: 100%;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    p {
+        margin-left: 0;
+        
+    }
+}
